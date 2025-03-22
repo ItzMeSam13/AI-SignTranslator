@@ -1,0 +1,35 @@
+{
+  "name": "ai-signtranslator",
+  "version": "1.0.0",
+  "description": "AI-powered real-time sign language interpreter for virtual meetings, using TensorFlow.js, Supabase Auth, and WebSockets for seamless communication",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItzMeSam13/AI-SignTranslator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItzMeSam13/AI-SignTranslator/issues"
+  },
+  "homepage": "https://github.com/ItzMeSam13/AI-SignTranslator#readme",
+  "dependencies": {
+    "@prisma/client": "^6.5.0",
+    "@supabase/supabase-js": "^2.49.1",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prisma": "^6.5.0"
+  }
+}
